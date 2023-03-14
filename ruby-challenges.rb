@@ -33,6 +33,13 @@ p even_or_odd(num3)
 # -------------------2) Create a method that takes in a string and removes all the vowels from the string. Use the test variables provided. 
 # HINT: Check out this resource: https://ruby-doc.org/core-2.6/String.html#method-i-delete
 
+# Pseduocode:
+# input - create a def and end method
+# output - the given values will be printed with all the vowels removed
+# create a method with the variable name vowel_remover that passes a string into its ()
+# within the method use str.delete'' and input all possible vowel variations
+# print all three beatles albums
+
 beatles_album1 = 'Rubber Soul'
 # output: "Rbbr Sl"
 # Expected output: 'Rbbr Sl'
@@ -49,6 +56,14 @@ p vowel_remover(beatles_album1)
 p vowel_remover(beatles_album2)
 p vowel_remover(beatles_album3)
 # -------------------3) Create a method that takes in a string and checks if the string is a palindrome. A palindrome is the same word spelled forward or backward. Use the test variables provided.
+
+# Pseudocode:
+# input - create a def and end method
+# output - the method output if the given value is a palindrome
+# create a method with the variable palindrome? passing a string in its ()
+# use if else statements within the method
+# use string == string.reverse to check if the given value is the same reversed. return using string interpolation within the string and write wether or not it's a palindrome
+# print palindrome? passing the 3 given variables
 
 palindrome_tester1 = 'Racecar'
 
